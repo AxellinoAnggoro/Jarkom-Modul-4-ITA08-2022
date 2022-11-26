@@ -571,6 +571,20 @@ iface eth1 inet static
     netmask 255.255.254.0
 ```
 
+#### The Queen
+
+```
+auto eth0
+iface eth0 inet static
+    address 192.213.64.3
+    netmask 255.255.255.0
+    gateway 192.213.64.1
+auto eth1
+iface eth1 inet static
+    address 192.213.65.1
+    netmask 255.255.255.252
+```
+
 ### Host
 #### Guideau (1000 host)
 
@@ -631,20 +645,6 @@ iface eth0 inet static
     address 192.213.64.2
     netmask 255.255.255.0
     gateway 192.213.64.1
-```
-
-#### The Queen
-
-```
-auto eth0
-iface eth0 inet static
-    address 192.213.64.3
-    netmask 255.255.255.0
-    gateway 192.213.64.1
-auto eth1
-iface eth1 inet static
-    address 192.213.65.1
-    netmask 255.255.255.252
 ```
 
 #### Oakleave (500 host)
