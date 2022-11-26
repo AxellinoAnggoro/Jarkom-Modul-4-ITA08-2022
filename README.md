@@ -863,7 +863,7 @@ Jika sudah jangan lupa ```reload``` semua node dan lakukan testing.
 #### Ping dari The Order ke Phanora (192.213.0.3)
 ![Ping TheOrder-Phanora](img-cidr/theorder-phanora.png)
 
-#### Ping dari Phanora ke Spendrow ()
+#### Ping dari Phanora ke Spendrow (192.213.72.2)
 ![Ping Phanora-Spendrow](img-cidr/phanora-spendrow.png)
 
 ## Kendala Pengerjaan
